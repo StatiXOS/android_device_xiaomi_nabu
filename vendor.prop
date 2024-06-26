@@ -14,3 +14,6 @@ ro.surface_flinger.set_touch_timer_ms=200
 
 # Recovery
 ro.recovery.ui.blank_unblank_on_init=true
+
+# Settings
+persist.settings.large_screen_opt.enabled=true
