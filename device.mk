@@ -7,6 +7,9 @@
 TARGET_IS_VAB := true
 TARGET_IS_TABLET := true
 
+# Window extensions
+$(call inherit-product, $(SRC_TARGET_DIR)/product/window_extensions.mk)
+
 # Inherit from sm8150-common
 $(call inherit-product, device/xiaomi/sm8150-common/msmnile.mk)
 
