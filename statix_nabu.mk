@@ -14,6 +14,9 @@ $(call inherit-product, vendor/statix/config/common.mk)
 # Inherit from nabu device
 $(call inherit-product, device/xiaomi/nabu/device.mk)
 
+# Include Pixel Launcher
+INCLUDE_PIXEL_LAUNCHER := true
+
 PRODUCT_NAME := statix_nabu
 PRODUCT_DEVICE := nabu
 PRODUCT_MANUFACTURER := Xiaomi
